@@ -1,0 +1,7 @@
+gevent
+jinja2
+pandas
+parallel-ssh
+paramiko
+python-telegram-bot
+scp
