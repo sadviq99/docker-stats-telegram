@@ -38,7 +38,7 @@ tm = Template(
 def show_statistic():
     # Read from CSV file which contains servers info. Most probably it needs
     # to be replaced with the connection to database.
-    conn = ServersConnection(join_path(ROOT_PATH, 'data/sadviq99.csv'))
+    conn = ServersConnection(join_path(ROOT_PATH, 'data/servers.csv'))
     data_dir, failed_conn = conn.download_stats()
     
     # If all of the connections to servers have failed, 
